@@ -6,9 +6,34 @@ var h = prompt('Ok, bok miałby... ' + a + ' [cm] hm... wpisz więc teraz WYSOKO
 var triangleArea = a*h/2;
 
 alert('Po przejęciu kontroli nad wszystkimi koparkami bitcoinów świata Twoja przeglądarka obliczyła że ten Trójkot Schrödingera ma pole wynoszące, ' + triangleArea + '[cm].');
+var mA = prompt('Podaj A dla obliczenia ze wzoru na skrócone mnożenie...');
+var mB = prompt('Podaj B dla obliczenia ze wzoru na skrócone mnożenie...');
+var value = ((mA * mA) + (2 * mA * mB) - (mB * mB));
 
-document.write('Pole Trójkota Schrödingera wynosi: ' + triangleArea + ' [cm].');
+document.write('<p>Pole Trójkota Schrödingera wynosi: ' + triangleArea + ' [cm].</p>' );
+document.write('<p>Dla A równego ' + mA + ' i B równego '+ mB + ' równanie wynosi: ' + value + '.</p>' );
+
+console.log('Pole Trójkota Schrödingera wynosi: ' + triangleArea + ' [cm].' );
+console.log('Dla A równego ' + mA + ' i B równego '+ mB + ' równanie wynosi: ' + value + '[cm].' );
 //console.log('Hello, ' + name);
 
+if ( value == 0 ) {
+  document.write ('Wynik równania jest równy zeru.');
+}
+  else if (value > 0 ) {
+    document.write ('Wynik równania jest większy od zera.');
+  }
+  else if ( value < 0 ) {
+    document.write ('Wynik równania jest mniejszy od zera.');
+  }
 
+if ( value == 0 ) {
+  console.log('Wynik równania jest równy zeru.');
+}
+  else if (value > 0 ) {
+    console.log ('Wynik równania jest większy od zera.');
+  }
+  else if ( value < 0 ) {
+    console.log ('Wynik równania jest mniejszy od zera.');
+  }
 //third exercise comment, 8.4 module.
