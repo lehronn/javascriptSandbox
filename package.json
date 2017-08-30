@@ -1,0 +1,31 @@
+{
+  "name": "java-exercises",
+  "version": "1.0.0",
+  "description": "my own kodilla.com exercises with js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "java-exercises-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehronn/javascriptSandbox.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "kodilla",
+    "exercises"
+  ],
+  "author": "Mateusz Stomski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lehronn/javascriptSandbox/issues"
+  },
+  "homepage": "https://github.com/lehronn/javascriptSandbox#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
