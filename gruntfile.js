@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
           files: ['sass/*.sass', 'js/*.js'],
-          tasks: ['sass', 'jshint'],
+          tasks: ['sass', 'jshint'], //this task is doing when "watch" notice changes in files and catalogs that You set line above.  
           options: {
               spawn: false,
           },
